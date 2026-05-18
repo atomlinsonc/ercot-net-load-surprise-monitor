@@ -66,5 +66,22 @@
     "reserveMargin": 30014,
     "riskLabel": "Tight",
     "riskScore": 4
+  },
+  {
+    "generatedAt": "2026-05-18T21:08:54.424Z",
+    "timestamp": "2026-05-18T15:00:00-05:00",
+    "hourEnding": 15,
+    "netLoadSurprise": 7487,
+    "forecastNetLoad": 21109,
+    "actualNetLoad": 28596,
+    "loadSurprise": 225,
+    "windMissTightness": 4698,
+    "solarMissTightness": 2564,
+    "rtPrice": 16.59,
+    "daPrice": 18.62,
+    "priceSpread": -2.03,
+    "reserveMargin": 30014,
+    "riskLabel": "Tight",
+    "riskScore": 4
   }
 ]

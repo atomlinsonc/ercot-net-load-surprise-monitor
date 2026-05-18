@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-05-18T21:05:39.403Z",
+  "generatedAt": "2026-05-18T21:07:29.121Z",
   "sourceStatus": "ok",
   "sourceUrls": {
     "systemDemand": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-demand.json",
@@ -10,7 +10,7 @@
   "sourceLastUpdated": {
     "systemDemand": "2026-05-18 15:15:02-0500",
     "windSolar": "2026-05-18 15:55:09-0500",
-    "supplyDemand": "2026-05-18 16:00:00-0500",
+    "supplyDemand": "2026-05-18 16:05:00-0500",
     "prices": "2026-05-18 16:02:00-0500"
   },
   "summary": {
@@ -41,9 +41,9 @@
     "windMissTightness": 4698,
     "solarMissTightness": 2564,
     "rtTimestamp": "2026-05-18T16:00:00-05:00",
-    "capacity": 105683,
-    "demand": 75686,
-    "reserveMargin": 29997,
+    "capacity": 105713,
+    "demand": 75699,
+    "reserveMargin": 30014,
     "reserveMarginPct": 28.4,
     "rampRisk": "Monitor evening",
     "rampWindow": "Off-ramp",
@@ -498,6 +498,23 @@
       "daPrice": 18.62,
       "priceSpread": -2.03,
       "reserveMargin": 29997,
+      "riskLabel": "Tight",
+      "riskScore": 4
+    },
+    {
+      "generatedAt": "2026-05-18T21:07:29.121Z",
+      "timestamp": "2026-05-18T15:00:00-05:00",
+      "hourEnding": 15,
+      "netLoadSurprise": 7487,
+      "forecastNetLoad": 21109,
+      "actualNetLoad": 28596,
+      "loadSurprise": 225,
+      "windMissTightness": 4698,
+      "solarMissTightness": 2564,
+      "rtPrice": 16.59,
+      "daPrice": 18.62,
+      "priceSpread": -2.03,
+      "reserveMargin": 30014,
       "riskLabel": "Tight",
       "riskScore": 4
     }

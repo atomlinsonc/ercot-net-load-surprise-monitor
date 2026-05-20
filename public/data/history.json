@@ -389,5 +389,22 @@
     "reserveMargin": 25456,
     "riskLabel": "Watch",
     "riskScore": 2
+  },
+  {
+    "generatedAt": "2026-05-20T22:48:27.599Z",
+    "timestamp": "2026-05-20T16:00:00-05:00",
+    "hourEnding": 16,
+    "netLoadSurprise": 1425,
+    "forecastNetLoad": 32700,
+    "actualNetLoad": 34125,
+    "loadSurprise": 909,
+    "windMissTightness": -199,
+    "solarMissTightness": 715,
+    "rtPrice": 38.5,
+    "daPrice": 40.12,
+    "priceSpread": -1.62,
+    "reserveMargin": 21622,
+    "riskLabel": "Normal",
+    "riskScore": 1
   }
 ]

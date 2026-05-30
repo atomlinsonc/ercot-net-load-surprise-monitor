@@ -2123,5 +2123,22 @@
     "reserveMargin": 28083,
     "riskLabel": "Normal",
     "riskScore": 1
+  },
+  {
+    "generatedAt": "2026-05-30T15:22:00.090Z",
+    "timestamp": "2026-05-30T09:00:00-05:00",
+    "hourEnding": 9,
+    "netLoadSurprise": 733,
+    "forecastNetLoad": 22133,
+    "actualNetLoad": 22866,
+    "loadSurprise": -101,
+    "windMissTightness": 568,
+    "solarMissTightness": 266,
+    "rtPrice": 17.94,
+    "daPrice": 12.72,
+    "priceSpread": 5.22,
+    "reserveMargin": 28163,
+    "riskLabel": "Normal",
+    "riskScore": 0
   }
 ]

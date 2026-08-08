@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-08T19:59:02.988Z",
+  "generatedAt": "2026-08-08T20:25:38.642Z",
   "sourceStatus": "ok",
   "sourceUrls": {
     "systemDemand": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-demand.json",
@@ -8,16 +8,18 @@
     "prices": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-prices.json"
   },
   "sourceLastUpdated": {
-    "systemDemand": "2026-08-08 14:15:01-0500",
+    "systemDemand": "2026-08-08 15:15:01-0500",
     "windSolar": "2026-08-08 14:55:39-0500",
-    "supplyDemand": "2026-08-08 14:55:00-0500",
-    "prices": "2026-08-08 14:47:00-0500"
+    "supplyDemand": "2026-08-08 15:25:00-0500",
+    "prices": "2026-08-08 15:17:00-0500"
   },
   "summary": {
     "riskLabel": "Normal",
-    "riskScore": 0,
-    "factors": [],
-    "traderNote": "ERCOT is currently running close to forecast. load is 527 MW below forecast, wind is 144 MW below forecast, and solar is 115 MW above forecast. Actual net load is therefore about 498 MW lower than expected. RT hub prices are trading $22.76/MWh above day-ahead, suggesting the market is pricing tighter real-time conditions. Risk label is Normal; the transparent inputs are not flashing material stress."
+    "riskScore": 1,
+    "factors": [
+      "RT hub price is more than $25/MWh above DA"
+    ],
+    "traderNote": "ERCOT is currently running close to forecast. load is 527 MW below forecast, wind is 144 MW below forecast, and solar is 115 MW above forecast. Actual net load is therefore about 498 MW lower than expected. RT hub prices are trading $32.85/MWh above day-ahead, suggesting the market is pricing tighter real-time conditions. Risk label is Normal because RT hub price is more than $25/MWh above DA."
   },
   "current": {
     "hour": "HE 14",
@@ -32,17 +34,17 @@
     "forecastNetLoad": 46976,
     "actualNetLoad": 46478,
     "netLoadSurprise": -498,
-    "rtPrice": 47.49,
-    "daPrice": 24.73,
-    "priceSpread": 22.76,
+    "rtPrice": 59.24,
+    "daPrice": 26.39,
+    "priceSpread": 32.85,
     "loadSurprise": -527,
     "windMissTightness": 144,
     "solarMissTightness": -115,
-    "rtTimestamp": "2026-08-08T14:45:00-05:00",
-    "capacity": 102992,
-    "demand": 83117,
-    "reserveMargin": 19875,
-    "reserveMarginPct": 19.3,
+    "rtTimestamp": "2026-08-08T15:15:00-05:00",
+    "capacity": 103744,
+    "demand": 83619,
+    "reserveMargin": 20125,
+    "reserveMarginPct": 19.4,
     "rampRisk": "Monitor evening",
     "rampWindow": "Off-ramp",
     "forecastRamp": null
@@ -290,7 +292,7 @@
       "hour": "HE 15",
       "hourEnding": 15,
       "timestamp": "2026-08-08T15:00:00-05:00",
-      "load": null,
+      "load": 82964,
       "loadForecast": 83850,
       "wind": null,
       "windForecast": 4143,
@@ -299,16 +301,16 @@
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": 47.49,
+      "rtPrice": 52.8,
       "daPrice": 24.73,
-      "priceSpread": 22.76
+      "priceSpread": 28.07
     },
     {
       "hour": "HE 16",
       "hourEnding": 16,
       "timestamp": "2026-08-08T16:00:00-05:00",
       "load": null,
-      "loadForecast": 84620,
+      "loadForecast": 84499,
       "wind": null,
       "windForecast": 5320,
       "solar": null,
@@ -316,16 +318,16 @@
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": null,
+      "rtPrice": 59.24,
       "daPrice": 26.39,
-      "priceSpread": null
+      "priceSpread": 32.85
     },
     {
       "hour": "HE 17",
       "hourEnding": 17,
       "timestamp": "2026-08-08T17:00:00-05:00",
       "load": null,
-      "loadForecast": 84983,
+      "loadForecast": 84651,
       "wind": null,
       "windForecast": 7118,
       "solar": null,
@@ -342,7 +344,7 @@
       "hourEnding": 18,
       "timestamp": "2026-08-08T18:00:00-05:00",
       "load": null,
-      "loadForecast": 84619,
+      "loadForecast": 84187,
       "wind": null,
       "windForecast": 9321,
       "solar": null,
@@ -359,7 +361,7 @@
       "hourEnding": 19,
       "timestamp": "2026-08-08T19:00:00-05:00",
       "load": null,
-      "loadForecast": 83149,
+      "loadForecast": 82547,
       "wind": null,
       "windForecast": 11265,
       "solar": null,
@@ -376,7 +378,7 @@
       "hourEnding": 20,
       "timestamp": "2026-08-08T20:00:00-05:00",
       "load": null,
-      "loadForecast": 80229,
+      "loadForecast": 79642,
       "wind": null,
       "windForecast": 12801,
       "solar": null,
@@ -393,7 +395,7 @@
       "hourEnding": 21,
       "timestamp": "2026-08-08T21:00:00-05:00",
       "load": null,
-      "loadForecast": 77453,
+      "loadForecast": 76835,
       "wind": null,
       "windForecast": 14484,
       "solar": null,
@@ -410,7 +412,7 @@
       "hourEnding": 22,
       "timestamp": "2026-08-08T22:00:00-05:00",
       "load": null,
-      "loadForecast": 74957,
+      "loadForecast": 74291,
       "wind": null,
       "windForecast": 16193,
       "solar": null,
@@ -427,7 +429,7 @@
       "hourEnding": 23,
       "timestamp": "2026-08-08T23:00:00-05:00",
       "load": null,
-      "loadForecast": 71604,
+      "loadForecast": 70973,
       "wind": null,
       "windForecast": 16484,
       "solar": null,
@@ -444,7 +446,7 @@
       "hourEnding": 24,
       "timestamp": "2026-08-09T00:00:00-05:00",
       "load": null,
-      "loadForecast": 68029,
+      "loadForecast": 67465,
       "wind": null,
       "windForecast": 16430,
       "solar": null,
@@ -16784,6 +16786,23 @@
       "reserveMargin": 19875,
       "riskLabel": "Normal",
       "riskScore": 0
+    },
+    {
+      "generatedAt": "2026-08-08T20:25:38.642Z",
+      "timestamp": "2026-08-08T14:00:00-05:00",
+      "hourEnding": 14,
+      "netLoadSurprise": -498,
+      "forecastNetLoad": 46976,
+      "actualNetLoad": 46478,
+      "loadSurprise": -527,
+      "windMissTightness": 144,
+      "solarMissTightness": -115,
+      "rtPrice": 59.24,
+      "daPrice": 26.39,
+      "priceSpread": 32.85,
+      "reserveMargin": 20125,
+      "riskLabel": "Normal",
+      "riskScore": 1
     }
   ]
 }

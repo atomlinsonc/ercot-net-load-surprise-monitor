@@ -1,22 +1,5 @@
 [
   {
-    "generatedAt": "2026-06-04T00:09:27.081Z",
-    "timestamp": "2026-06-03T18:00:00-05:00",
-    "hourEnding": 18,
-    "netLoadSurprise": -574,
-    "forecastNetLoad": 44091,
-    "actualNetLoad": 43517,
-    "loadSurprise": 275,
-    "windMissTightness": -124,
-    "solarMissTightness": -725,
-    "rtPrice": 42.7,
-    "daPrice": 40.97,
-    "priceSpread": 1.73,
-    "reserveMargin": 17480,
-    "riskLabel": "Normal",
-    "riskScore": 0
-  },
-  {
     "generatedAt": "2026-06-04T05:02:14.738Z",
     "timestamp": "2026-06-03T23:00:00-05:00",
     "hourEnding": 23,
@@ -16996,6 +16979,23 @@
     "daPrice": 25.72,
     "priceSpread": -7.57,
     "reserveMargin": 29515,
+    "riskLabel": "Normal",
+    "riskScore": 0
+  },
+  {
+    "generatedAt": "2026-08-15T23:31:41.444Z",
+    "timestamp": "2026-08-15T17:00:00-05:00",
+    "hourEnding": 17,
+    "netLoadSurprise": -1126,
+    "forecastNetLoad": 41737,
+    "actualNetLoad": 40611,
+    "loadSurprise": -1204,
+    "windMissTightness": 773,
+    "solarMissTightness": -695,
+    "rtPrice": 15.47,
+    "daPrice": 31.63,
+    "priceSpread": -16.16,
+    "reserveMargin": 27518,
     "riskLabel": "Normal",
     "riskScore": 0
   }

@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-19T18:18:12.326Z",
+  "generatedAt": "2026-08-19T18:58:14.791Z",
   "sourceStatus": "ok",
   "sourceUrls": {
     "systemDemand": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-demand.json",
@@ -8,10 +8,10 @@
     "prices": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-prices.json"
   },
   "sourceLastUpdated": {
-    "systemDemand": "2026-08-19 13:07:04-0500",
+    "systemDemand": "2026-08-19 13:15:02-0500",
     "windSolar": "2026-08-19 12:55:13-0500",
-    "supplyDemand": "2026-08-19 13:15:00-0500",
-    "prices": "2026-08-19 13:02:00-0500"
+    "supplyDemand": "2026-08-19 13:55:00-0500",
+    "prices": "2026-08-19 13:47:00-0500"
   },
   "summary": {
     "riskLabel": "Normal",
@@ -32,17 +32,17 @@
     "forecastNetLoad": 36742,
     "actualNetLoad": 34771,
     "netLoadSurprise": -1972,
-    "rtPrice": 21.52,
-    "daPrice": 21.79,
-    "priceSpread": -0.27,
+    "rtPrice": 26.81,
+    "daPrice": 28.07,
+    "priceSpread": -1.26,
     "loadSurprise": -690,
     "windMissTightness": -244,
     "solarMissTightness": -1037,
-    "rtTimestamp": "2026-08-19T13:00:00-05:00",
-    "capacity": 113418,
-    "demand": 85081,
-    "reserveMargin": 28337,
-    "reserveMarginPct": 25,
+    "rtTimestamp": "2026-08-19T13:45:00-05:00",
+    "capacity": 112827,
+    "demand": 87514,
+    "reserveMargin": 25313,
+    "reserveMarginPct": 22.4,
     "rampRisk": "Normal",
     "rampWindow": "Off-ramp",
     "forecastRamp": null
@@ -256,7 +256,7 @@
       "hour": "HE 13",
       "hourEnding": 13,
       "timestamp": "2026-08-19T13:00:00-05:00",
-      "load": null,
+      "load": 81840,
       "loadForecast": 82464,
       "wind": null,
       "windForecast": 7045,
@@ -282,9 +282,9 @@
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": null,
+      "rtPrice": 26.81,
       "daPrice": 28.07,
-      "priceSpread": null
+      "priceSpread": -1.26
     },
     {
       "hour": "HE 15",
@@ -465,23 +465,6 @@
     "reserveProxy": "Supply and Demand dashboard capacity minus demand; this is a capacity cushion proxy, not a replacement for ERCOT reserve products."
   },
   "history": [
-    {
-      "generatedAt": "2026-06-22T22:24:12.994Z",
-      "timestamp": "2026-06-22T16:00:00-05:00",
-      "hourEnding": 16,
-      "netLoadSurprise": -488,
-      "forecastNetLoad": 40485,
-      "actualNetLoad": 39997,
-      "loadSurprise": -322,
-      "windMissTightness": 726,
-      "solarMissTightness": -892,
-      "rtPrice": 31.16,
-      "daPrice": 25.07,
-      "priceSpread": 6.09,
-      "reserveMargin": 23967,
-      "riskLabel": "Normal",
-      "riskScore": 0
-    },
     {
       "generatedAt": "2026-06-22T23:47:07.368Z",
       "timestamp": "2026-06-22T17:00:00-05:00",
@@ -17462,6 +17445,23 @@
       "daPrice": 21.79,
       "priceSpread": -0.27,
       "reserveMargin": 28337,
+      "riskLabel": "Normal",
+      "riskScore": 0
+    },
+    {
+      "generatedAt": "2026-08-19T18:58:14.791Z",
+      "timestamp": "2026-08-19T12:00:00-05:00",
+      "hourEnding": 12,
+      "netLoadSurprise": -1972,
+      "forecastNetLoad": 36742,
+      "actualNetLoad": 34771,
+      "loadSurprise": -690,
+      "windMissTightness": -244,
+      "solarMissTightness": -1037,
+      "rtPrice": 26.81,
+      "daPrice": 28.07,
+      "priceSpread": -1.26,
+      "reserveMargin": 25313,
       "riskLabel": "Normal",
       "riskScore": 0
     }

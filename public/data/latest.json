@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-21T22:14:37.065Z",
+  "generatedAt": "2026-08-21T22:41:07.808Z",
   "sourceStatus": "ok",
   "sourceUrls": {
     "systemDemand": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-demand.json",
@@ -8,16 +8,16 @@
     "prices": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-prices.json"
   },
   "sourceLastUpdated": {
-    "systemDemand": "2026-08-21 17:07:02-0500",
+    "systemDemand": "2026-08-21 17:15:01-0500",
     "windSolar": "2026-08-21 16:55:13-0500",
-    "supplyDemand": "2026-08-21 17:10:00-0500",
-    "prices": "2026-08-21 17:02:00-0500"
+    "supplyDemand": "2026-08-21 17:40:00-0500",
+    "prices": "2026-08-21 17:32:00-0500"
   },
   "summary": {
     "riskLabel": "Normal",
     "riskScore": 0,
     "factors": [],
-    "traderNote": "ERCOT is currently running looser than expected. solar is 697 MW above forecast, wind is 196 MW below forecast, and load is 129 MW below forecast. Actual net load is therefore about 630 MW lower than expected. RT hub prices are trading $20.30/MWh below day-ahead, so prices have not confirmed scarcity in this snapshot. Risk label is Normal; the transparent inputs are not flashing material stress."
+    "traderNote": "ERCOT is currently running looser than expected. solar is 697 MW above forecast, wind is 196 MW below forecast, and load is 129 MW below forecast. Actual net load is therefore about 630 MW lower than expected. RT hub prices are trading $30.67/MWh below day-ahead, so prices have not confirmed scarcity in this snapshot. Risk label is Normal; the transparent inputs are not flashing material stress."
   },
   "current": {
     "hour": "HE 16",
@@ -32,17 +32,17 @@
     "forecastNetLoad": 53087,
     "actualNetLoad": 52457,
     "netLoadSurprise": -630,
-    "rtPrice": 30.49,
-    "daPrice": 50.79,
-    "priceSpread": -20.3,
+    "rtPrice": 25.78,
+    "daPrice": 56.45,
+    "priceSpread": -30.67,
     "loadSurprise": -129,
     "windMissTightness": 196,
     "solarMissTightness": -697,
-    "rtTimestamp": "2026-08-21T17:00:00-05:00",
-    "capacity": 114258,
-    "demand": 89437,
-    "reserveMargin": 24821,
-    "reserveMarginPct": 21.7,
+    "rtTimestamp": "2026-08-21T17:30:00-05:00",
+    "capacity": 113230,
+    "demand": 89410,
+    "reserveMargin": 23820,
+    "reserveMarginPct": 21,
     "rampRisk": "Normal",
     "rampWindow": "Evening ramp",
     "forecastRamp": null
@@ -324,7 +324,7 @@
       "hour": "HE 17",
       "hourEnding": 17,
       "timestamp": "2026-08-21T17:00:00-05:00",
-      "load": null,
+      "load": 89649,
       "loadForecast": 90369,
       "wind": null,
       "windForecast": 7811,
@@ -350,9 +350,9 @@
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": null,
+      "rtPrice": 25.78,
       "daPrice": 56.45,
-      "priceSpread": null
+      "priceSpread": -30.67
     },
     {
       "hour": "HE 19",
@@ -465,23 +465,6 @@
     "reserveProxy": "Supply and Demand dashboard capacity minus demand; this is a capacity cushion proxy, not a replacement for ERCOT reserve products."
   },
   "history": [
-    {
-      "generatedAt": "2026-07-01T11:47:51.671Z",
-      "timestamp": "2026-07-01T05:00:00-05:00",
-      "hourEnding": 5,
-      "netLoadSurprise": 910,
-      "forecastNetLoad": 36959,
-      "actualNetLoad": 37869,
-      "loadSurprise": 260,
-      "windMissTightness": 651,
-      "solarMissTightness": -1,
-      "rtPrice": 22.83,
-      "daPrice": 24.75,
-      "priceSpread": -1.92,
-      "reserveMargin": 24336,
-      "riskLabel": "Normal",
-      "riskScore": 0
-    },
     {
       "generatedAt": "2026-07-01T13:59:08.168Z",
       "timestamp": "2026-07-01T08:00:00-05:00",
@@ -17462,6 +17445,23 @@
       "daPrice": 50.79,
       "priceSpread": -20.3,
       "reserveMargin": 24821,
+      "riskLabel": "Normal",
+      "riskScore": 0
+    },
+    {
+      "generatedAt": "2026-08-21T22:41:07.808Z",
+      "timestamp": "2026-08-21T16:00:00-05:00",
+      "hourEnding": 16,
+      "netLoadSurprise": -630,
+      "forecastNetLoad": 53087,
+      "actualNetLoad": 52457,
+      "loadSurprise": -129,
+      "windMissTightness": 196,
+      "solarMissTightness": -697,
+      "rtPrice": 25.78,
+      "daPrice": 56.45,
+      "priceSpread": -30.67,
+      "reserveMargin": 23820,
       "riskLabel": "Normal",
       "riskScore": 0
     }

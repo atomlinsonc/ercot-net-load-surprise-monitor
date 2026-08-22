@@ -1,5 +1,5 @@
 {
-  "generatedAt": "2026-08-22T03:52:30.574Z",
+  "generatedAt": "2026-08-22T04:18:40.806Z",
   "sourceStatus": "ok",
   "sourceUrls": {
     "systemDemand": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-demand.json",
@@ -8,46 +8,45 @@
     "prices": "https://www.ercot.com/api/1/services/read/dashboards/system-wide-prices.json"
   },
   "sourceLastUpdated": {
-    "systemDemand": "2026-08-21 22:15:02-0500",
-    "windSolar": "2026-08-21 21:55:14-0500",
-    "supplyDemand": "2026-08-21 22:50:00-0500",
-    "prices": "2026-08-21 22:47:00-0500"
+    "systemDemand": "2026-08-21 23:07:01-0500",
+    "windSolar": "2026-08-21 22:55:13-0500",
+    "supplyDemand": "2026-08-21 23:15:00-0500",
+    "prices": "2026-08-21 23:17:00-0500"
   },
   "summary": {
-    "riskLabel": "Watch",
-    "riskScore": 3,
+    "riskLabel": "Normal",
+    "riskScore": 1,
     "factors": [
-      "net load surprise above +2 GW",
-      "ramp window is active with notable stress"
+      "net load surprise above +1 GW"
     ],
-    "traderNote": "ERCOT is currently running tighter than expected. load is 1,901 MW above forecast, wind is 240 MW below forecast, and solar is 24 MW below forecast. Actual net load is therefore about 2,165 MW higher than expected. RT hub prices are trading $16.41/MWh below day-ahead, so prices have not confirmed scarcity in this snapshot. Risk label is Watch because net load surprise above +2 GW, ramp window is active with notable stress."
+    "traderNote": "ERCOT is currently running tighter than expected. load is 1,395 MW above forecast, wind is 57 MW above forecast, and solar is 0 MW below forecast. Actual net load is therefore about 1,339 MW higher than expected. RT hub prices are close to day-ahead for the current hour. Risk label is Normal because net load surprise above +1 GW."
   },
   "current": {
-    "hour": "HE 21",
-    "hourEnding": 21,
-    "timestamp": "2026-08-21T21:00:00-05:00",
-    "load": 84014,
-    "loadForecast": 82113,
-    "wind": 11627,
-    "windForecast": 11867,
-    "solar": 74,
-    "solarForecast": 98,
-    "forecastNetLoad": 70148,
-    "actualNetLoad": 72313,
-    "netLoadSurprise": 2165,
-    "rtPrice": 30.41,
-    "daPrice": 46.82,
-    "priceSpread": -16.41,
-    "loadSurprise": 1901,
-    "windMissTightness": 240,
-    "solarMissTightness": 24,
-    "rtTimestamp": "2026-08-21T22:45:00-05:00",
-    "capacity": 92665,
-    "demand": 75154,
-    "reserveMargin": 17511,
-    "reserveMarginPct": 18.9,
-    "rampRisk": "Watch",
-    "rampWindow": "Evening ramp",
+    "hour": "HE 22",
+    "hourEnding": 22,
+    "timestamp": "2026-08-21T22:00:00-05:00",
+    "load": 80680,
+    "loadForecast": 79285,
+    "wind": 14702,
+    "windForecast": 14645,
+    "solar": 0,
+    "solarForecast": 0,
+    "forecastNetLoad": 64640,
+    "actualNetLoad": 65978,
+    "netLoadSurprise": 1339,
+    "rtPrice": 31.24,
+    "daPrice": 31.78,
+    "priceSpread": -0.54,
+    "loadSurprise": 1395,
+    "windMissTightness": -57,
+    "solarMissTightness": 0,
+    "rtTimestamp": "2026-08-21T23:15:00-05:00",
+    "capacity": 92056,
+    "demand": 73582,
+    "reserveMargin": 18474,
+    "reserveMarginPct": 20.1,
+    "rampRisk": "Normal",
+    "rampWindow": "Off-ramp",
     "forecastRamp": null
   },
   "series": [
@@ -414,13 +413,13 @@
       "timestamp": "2026-08-21T22:00:00-05:00",
       "load": 80680,
       "loadForecast": 79285,
-      "wind": null,
+      "wind": 14702,
       "windForecast": 14645,
-      "solar": null,
+      "solar": 0,
       "solarForecast": 0,
-      "forecastNetLoad": null,
-      "actualNetLoad": null,
-      "netLoadSurprise": null,
+      "forecastNetLoad": 64640,
+      "actualNetLoad": 65978,
+      "netLoadSurprise": 1339,
       "rtPrice": 36.61,
       "daPrice": 74.79,
       "priceSpread": -38.18
@@ -432,15 +431,15 @@
       "load": null,
       "loadForecast": 75484,
       "wind": null,
-      "windForecast": 16573,
+      "windForecast": 16590,
       "solar": null,
       "solarForecast": 0,
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": 30.41,
+      "rtPrice": 30.22,
       "daPrice": 46.82,
-      "priceSpread": -16.41
+      "priceSpread": -16.6
     },
     {
       "hour": "HE 24",
@@ -449,15 +448,15 @@
       "load": null,
       "loadForecast": 71569,
       "wind": null,
-      "windForecast": 17389,
+      "windForecast": 17635,
       "solar": null,
       "solarForecast": 0,
       "forecastNetLoad": null,
       "actualNetLoad": null,
       "netLoadSurprise": null,
-      "rtPrice": null,
+      "rtPrice": 31.24,
       "daPrice": 31.78,
-      "priceSpread": null
+      "priceSpread": -0.54
     }
   ],
   "methodology": {
@@ -468,23 +467,6 @@
     "reserveProxy": "Supply and Demand dashboard capacity minus demand; this is a capacity cushion proxy, not a replacement for ERCOT reserve products."
   },
   "history": [
-    {
-      "generatedAt": "2026-07-02T07:48:59.173Z",
-      "timestamp": "2026-07-02T01:00:00-05:00",
-      "hourEnding": 1,
-      "netLoadSurprise": 912,
-      "forecastNetLoad": 42892,
-      "actualNetLoad": 43804,
-      "loadSurprise": 50,
-      "windMissTightness": 862,
-      "solarMissTightness": 0,
-      "rtPrice": 24.6,
-      "daPrice": 23.64,
-      "priceSpread": 0.96,
-      "reserveMargin": 22484,
-      "riskLabel": "Normal",
-      "riskScore": 0
-    },
     {
       "generatedAt": "2026-07-02T10:25:04.910Z",
       "timestamp": "2026-07-02T04:00:00-05:00",
@@ -17467,6 +17449,23 @@
       "reserveMargin": 17511,
       "riskLabel": "Watch",
       "riskScore": 3
+    },
+    {
+      "generatedAt": "2026-08-22T04:18:40.806Z",
+      "timestamp": "2026-08-21T22:00:00-05:00",
+      "hourEnding": 22,
+      "netLoadSurprise": 1339,
+      "forecastNetLoad": 64640,
+      "actualNetLoad": 65978,
+      "loadSurprise": 1395,
+      "windMissTightness": -57,
+      "solarMissTightness": 0,
+      "rtPrice": 31.24,
+      "daPrice": 31.78,
+      "priceSpread": -0.54,
+      "reserveMargin": 18474,
+      "riskLabel": "Normal",
+      "riskScore": 1
     }
   ]
 }
